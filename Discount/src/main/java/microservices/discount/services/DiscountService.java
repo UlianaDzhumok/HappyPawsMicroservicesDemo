@@ -13,16 +13,11 @@ import java.util.List;
 
 @RestController
 @Service
-@RequestMapping("/api/v1")
+@RequestMapping("/")
 public class DiscountService {
 
     @Autowired
     DiscountRepository dscntRepo;
-
-    @RequestMapping(value="/")
-    public String index() {
-        return "Hello from Discount";
-    }
 
     @RequestMapping(value="/discounts", method = RequestMethod.GET)
     List<Discount> getAllDiscounts() {

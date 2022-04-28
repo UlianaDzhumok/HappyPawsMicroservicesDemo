@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99f3809d-c862-4813-851d-63276b445fee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Booking/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Booking/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discount/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Discount/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Payment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Payment/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="99f3809d-c862-4813-851d-63276b445fee" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +13,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -43,42 +36,70 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Eureka" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Booking/src/test/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ulian\IdeaProjects\TUS\Microservices\HappyPaws\Booking\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="microservices.booking" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dto" />
+      <recent name="microservices.discount.dto" />
       <recent name="microservices.booking" />
       <recent name="microservices.discount" />
       <recent name="microservices.payment" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ulian\IdeaProjects\TUS\Microservices\HappyPaws\Booking\src\test\java" />
       <recent name="C:\Users\ulian\IdeaProjects\TUS\Microservices\HappyPaws\Payment\src\main\java" />
       <recent name="C:\Users\ulian\IdeaProjects\TUS\Microservices\HappyPaws\Payment\src\main\resources" />
       <recent name="C:\Users\ulian\IdeaProjects\TUS\Microservices\HappyPaws\Discount\src\main\java" />
       <recent name="C:\Users\ulian\IdeaProjects\TUS\Microservices\HappyPaws\Discount\src\main\resources" />
-      <recent name="C:\Users\ulian\IdeaProjects\TUS\Microservices\HappyPaws\Booking\src\main\java" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn test" />
-      <command value="mvn deploy" />
       <command value="mvn install" />
-      <command value="mvn package" />
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookingTest">
+  <component name="RunManager" selected="Application.BookingApplication">
+    <configuration name="BookingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="microservices.booking.BookingApplication" />
+      <module name="Booking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="microservices.booking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="microservices.discount.DiscountApplication" />
+      <module name="Discount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="microservices.discount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="microservices.payment.PaymentApplication" />
       <module name="Payment" />
@@ -92,80 +113,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Booking" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="microservices.booking.dto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="microservices.booking.dto" />
-      <option name="MAIN_CLASS_NAME" value="microservices.booking.dto.BookingTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiscountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Discount" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="microservices.discount.dto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="microservices.discount.dto" />
-      <option name="MAIN_CLASS_NAME" value="microservices.discount.dto.DiscountTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PaymentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Payment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="microservices.payment.dto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="microservices.payment.dto" />
-      <option name="MAIN_CLASS_NAME" value="microservices.payment.dto.PaymentTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Booking" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="microservices.booking.dto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="microservices.booking.dto" />
-      <option name="MAIN_CLASS_NAME" value="microservices.booking.dto.PetTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.BookingApplication" />
+      <item itemvalue="Application.DiscountApplication" />
       <item itemvalue="Application.PaymentApplication" />
-      <item itemvalue="JUnit.BookingTest" />
-      <item itemvalue="JUnit.PetTest" />
-      <item itemvalue="JUnit.DiscountTest" />
-      <item itemvalue="JUnit.PaymentTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BookingTest" />
-        <item itemvalue="JUnit.PaymentTest" />
-        <item itemvalue="JUnit.DiscountTest" />
-        <item itemvalue="JUnit.PetTest" />
+        <item itemvalue="Application.BookingApplication" />
         <item itemvalue="Application.PaymentApplication" />
+        <item itemvalue="Application.DiscountApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -191,10 +148,6 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1650937617757" />
-    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1651107148377">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1651107148377" />
     <state x="730" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1650856277855">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -211,6 +164,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="564" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1650850724922" />
+    <state x="756" y="379" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1651161101591">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="379" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1651161101591" />
     <state x="756" y="400" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1650850681292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -219,62 +176,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="458" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1650858066175" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1650944839575">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1651160013793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1650944839575" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1651121735076">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1651160013793" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1651161421785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1651121735076" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1651121735076">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1651161421785" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1651161421785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1651121735076" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1651121735076">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1651161421785" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1651161421785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1651121735076" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1651121735076">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1651161421785" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1651161421785">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1651121735076" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1650913837241">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1651161421785" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1651160908771">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1650913837241" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1650913837241">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1651160908771" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1651160908771">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1650913837241" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1650913837241">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1651160908771" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1651160908771">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1650913837241" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1650913837241">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1651160908771" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1651160908771">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1650913837241" />
-    <state x="625" y="219" key="NewModule_or_Project.wizard" timestamp="1650944840662">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1651160908771" />
+    <state x="625" y="219" key="NewModule_or_Project.wizard" timestamp="1651160015603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="625" y="219" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1650944840662" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1651106150913">
+    <state x="625" y="219" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1651160015603" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1650905817372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1651106150913" />
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1651108884166">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1651108884166" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1650905817372" />
     <state x="342" y="215" key="new project wizard" timestamp="1650850367623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1650850367623" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1651121735093">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1651161421801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1651121735093" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1651161421801" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

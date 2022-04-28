@@ -1,5 +1,7 @@
 package microservices.booking.dto;
 
+import microservices.booking.dto.Pet;
+import microservices.booking.dto.Species;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -1,5 +1,6 @@
 package microservices.payment.dto;
 
+import microservices.payment.dto.Payment;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

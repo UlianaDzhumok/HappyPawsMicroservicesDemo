@@ -1,5 +1,7 @@
 package microservices.discount.dto;
 
+import microservices.discount.dto.Discount;
+import microservices.discount.dto.Level;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
