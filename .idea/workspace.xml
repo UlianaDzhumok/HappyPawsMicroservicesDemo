@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="99f3809d-c862-4813-851d-63276b445fee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Booking/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Booking/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Discount/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Discount/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Payment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Payment/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +73,7 @@
       <command value="mvn install" />
       <command value="mvn test" />
       <command value="mvn clean" />
+      <command value="mvn deploy" />
     </option>
   </component>
   <component name="RunManager" selected="JUnit.BookingTest">
@@ -223,22 +221,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1650944839575" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1651109977256">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1651112619279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1651109977256" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1651109977256">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1651112619279" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1651112619279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1651109977256" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1651109977256">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1651112619279" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1651112619279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1651109977256" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1651109977256">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1651112619279" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1651112619279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1651109977256" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1651112619279" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1650913837241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -271,10 +269,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1650850367623" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1651109977273">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1651112619299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1651109977273" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1651112619299" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
