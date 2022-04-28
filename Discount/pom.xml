@@ -11,20 +11,15 @@
 
     <artifactId>Discount</artifactId>
     <packaging>war</packaging>
-
+    <properties>
+        <start-class>microservices.discount.DiscountApplication</start-class>
+    </properties>
     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.6.7</version>
-                <executions>
-                    <execution>
-                        <configuration>
-                            <mainClass>microservices.discount.DiscountApplication</mainClass>
-                        </configuration>
-                    </execution>
-                </executions>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
