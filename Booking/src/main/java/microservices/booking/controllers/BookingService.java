@@ -31,11 +31,16 @@ import java.util.Optional;
 
 @RestController
 @Service
-@RequestMapping("/")
+@RequestMapping("/api/v1")
 public class BookingService {
 
     @Autowired
     BookingRepository bookRepo;
+
+    @RequestMapping(value="/")
+    public String index() {
+        return "Hello from Booking";
+    }
 
     @Operation(summary = "Get all bookings")
     @ApiResponses(value = {
