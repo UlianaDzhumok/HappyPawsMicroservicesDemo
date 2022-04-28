@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99f3809d-c862-4813-851d-63276b445fee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Booking/src/test/java/microservices/booking/dto/BookingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Booking/src/test/java/microservices/booking/dto/PetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Discount/src/test/java/microservices/discount/dto/DiscountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Payment/src/test/java/microservices/payment/dto/PaymentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +49,19 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ulian\IdeaProjects\TUS\Microservices\HappyPaws\Booking\src\main\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="microservices.booking" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="microservices.booking" />
+      <recent name="microservices.discount" />
+      <recent name="microservices.payment" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ulian\IdeaProjects\TUS\Microservices\HappyPaws\Payment\src\main\java" />
@@ -57,14 +69,6 @@
       <recent name="C:\Users\ulian\IdeaProjects\TUS\Microservices\HappyPaws\Discount\src\main\java" />
       <recent name="C:\Users\ulian\IdeaProjects\TUS\Microservices\HappyPaws\Discount\src\main\resources" />
       <recent name="C:\Users\ulian\IdeaProjects\TUS\Microservices\HappyPaws\Booking\src\main\java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="microservices.booking" />
-      <recent name="microservices.discount" />
-      <recent name="microservices.payment" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ulian\IdeaProjects\TUS\Microservices\HappyPaws\Booking\src\main\resources" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -214,14 +218,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="625" y="219" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1650944840662" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1650905817372">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1651106150913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1650905817372" />
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1651103796670">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1651106150913" />
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1651106161408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1651103796670" />
+    <state x="661" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1651106161408" />
     <state x="342" y="215" key="new project wizard" timestamp="1650850367623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
