@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @Service
-@RequestMapping("/")
+@RequestMapping("/api/v1")
 public class DiscountService {
 
     @Autowired

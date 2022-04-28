@@ -31,7 +31,7 @@ import java.util.Optional;
 
 @RestController
 @Service
-@RequestMapping("/")
+@RequestMapping("/api/v1")
 public class BookingService {
 
     @Autowired
