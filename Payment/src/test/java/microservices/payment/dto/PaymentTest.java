@@ -18,6 +18,6 @@ class PaymentTest {
 
     @Test
     void testToString() {
-        assertThat(paymentUnderTest.toString()).isEqualTo("result");
+        assertThat(paymentUnderTest.toString()).isEqualTo("Payment{id=0, date=2020-01-01T00:00, phone='phone', bookingId=0, price=0.0}");
     }
 }

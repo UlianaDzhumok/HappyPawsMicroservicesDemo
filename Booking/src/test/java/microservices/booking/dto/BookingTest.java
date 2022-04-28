@@ -26,7 +26,7 @@ class BookingTest {
 
     @Test
     void testToString() {
-        assertThat(bookingUnderTest.toString()).isEqualTo("result");
+        assertThat(bookingUnderTest.toString()).isEqualTo("Booking{id=0, date=2020-01-01T00:00, phone='phone', firstGrooming=false, pet=mockPet, services='services', price=0.0, status=REGISTERED}");
     }
 
 }

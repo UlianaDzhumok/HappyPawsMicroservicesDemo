@@ -16,6 +16,6 @@ class DiscountTest {
 
     @Test
     void testToString() {
-        assertThat(discountUnderTest.toString()).isEqualTo("result");
+        assertThat(discountUnderTest.toString()).isEqualTo("Discount{Phone='phone', level=BRONZE, groomSetsNumber=0}");
     }
 }

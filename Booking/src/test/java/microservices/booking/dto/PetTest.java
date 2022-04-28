@@ -16,6 +16,6 @@ class PetTest {
 
     @Test
     void testToString() {
-        assertThat(petUnderTest.toString()).isEqualTo("result");
+        assertThat(petUnderTest.toString()).isEqualTo("Pet{id=0, species=CAT, name='name', breed='breed', age=0, weight='0', ownersPhone='ownersPhone'}");
     }
 }
