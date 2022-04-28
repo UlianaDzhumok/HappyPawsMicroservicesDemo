@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>Discount</artifactId>
+    <packaging>war</packaging>
 
     <build>
         <plugins>
@@ -48,5 +49,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

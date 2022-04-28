@@ -22,6 +22,14 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.2</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+            <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.6.7</version>
@@ -66,6 +74,12 @@
     </build>
 
     <dependencies>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.3.2</version>
+            <type>maven-plugin</type>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-dependencies</artifactId>
@@ -198,7 +212,7 @@
     <distributionManagement>
         <repository>
             <id>releases</id>
-            <url>https://github.com/UlianaDzhumok/HappyPawsMicroservicesDemo/releases/tag/published</url>
+            <url>file://C:/Users/ulian/.m2/repository/</url>
         </repository>
     </distributionManagement>
 </project>
