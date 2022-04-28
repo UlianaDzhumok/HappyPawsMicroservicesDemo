@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99f3809d-c862-4813-851d-63276b445fee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Booking/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Booking/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Discount/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Discount/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Payment/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Payment/pom.xml" afterDir="false" />
@@ -75,8 +74,8 @@
       <command value="mvn test" />
       <command value="mvn deploy" />
       <command value="mvn install" />
-      <command value="mvn clean" />
       <command value="mvn package" />
+      <command value="mvn clean" />
     </option>
   </component>
   <component name="RunManager" selected="JUnit.BookingTest">
