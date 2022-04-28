@@ -19,6 +19,11 @@ public class DiscountService {
     @Autowired
     DiscountRepository dscntRepo;
 
+    @RequestMapping(value="/")
+    public String index() {
+        return "Hello from Discount";
+    }
+
     @RequestMapping(value="/discounts", method = RequestMethod.GET)
     List<Discount> getAllDiscounts() {
         return dscntRepo.findAll();

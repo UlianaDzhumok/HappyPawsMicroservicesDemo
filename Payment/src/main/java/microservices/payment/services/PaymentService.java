@@ -26,6 +26,11 @@ public class PaymentService {
     @Autowired
     PaymentRepository payRepo;
 
+    @RequestMapping(value="/")
+    public String index() {
+        return "Hello from Payment";
+    }
+
     @RequestMapping(value="/payments", method = RequestMethod.GET)
     List<Payment> getAllPayments() {
         return payRepo.findAll();
