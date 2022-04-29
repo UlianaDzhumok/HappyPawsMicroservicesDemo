@@ -1,2 +1,2 @@
 # HappyPawsMicroservicesDemo
-This is Happy Paws Demo project
+This is Happy Paws Demo
