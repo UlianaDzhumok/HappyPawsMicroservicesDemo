@@ -1,2 +1,2 @@
 # HappyPawsMicroservicesDemo
-This is Happy Paws Demo
+This is Happy Paws Demo Project for Pipeline
